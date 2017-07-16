@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'yekan';
+    src:url('fonts/BYekan.eot?#') format('eot'),
+    url('fonts/BYekan.woff') format('woff'),
+    url('fonts/BYekan.ttf') format('truetype');
+}
+body{
+    direction: rtl;
+    font-family: 'yekan';
+}
+.admin-sidebar{
+    height:1000px;
+    float: right;
+    border:1px solid #8c8c8c;
+    padding:.5%;
+}
+admin-sidebar ul li{
+    list-style: circle;
+}
+.product-content{
+    height: 1000px;
+}
+form{
+    float: right;
+    direction: rtl;
+}
+.button{
+    float: right;
+    margin-top:2%;
+}
+.price span{
+    font-size: 16px !important;
+    color: #000 !important;
+}
+.sidebar{
+    width: 17%;
+    height:500px;
+    float: right;
+    border: 1px #8c8c8c solid;
+    border-radius: 5px;
+    padding:1%;
+}
+
+.products-of-brand{
+    width:80%;
+    height:auto;
+    float: left;
+    margin:0px auto;
+}
+.box{
+    margin-top: 3%;
+}
+
+.single-product{
+    width:224px;
+    height:auto;
+    margin-right: 4px;
+    margin-left: 4px;
+    float: right !important;
+    border:1px solid #8c8c8c;
+    border-radius: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.single-product:hover{
+    -webkit-box-shadow: 0px 3px 27px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 3px 27px 0px rgba(0,0,0,0.7);
+    box-shadow: 0px 3px 27px 0px rgba(0,0,0,0.7);
+}
+.single-product-image{
+    width:224px;
+    height:230px;
+}
+.cart-icon{
+    text-align: left;
+    width:50%;
+    display: inline-block;
+    float: left;
+    margin-top: 3px;
+}
+.product-price{
+    width:50%;
+    text-align: right;
+    display: inline-block;
+    margin-top: 3px;
+    color: #159900;
+    font-size: 14px;
+}
+.product-info{
+    font-size: 13px;
+    color: #000;
+    text-align: center;
+}
+.product-info:hover{
+    color: #ff0000;
+}
+.single-product a:hover{
+    text-decoration: none;
+}
+.single-product a:hover{
+    color: #ff0000 !important;
+}
+.price-filter label{
+    font-size: 13px !important;
+}
+.brand-filter label{
+    font-size: 13px;
+}
+.price-filter hr{
+    width:100%;
+}
+.orderby form{
+    margin-right: 1%;
+}
+.orderby form label{
+    font-size:13px;
+    float: right;
+}
+.orderby select{
+    width: 70px;
+    height:25px;
+    font-size: 12px;
+    padding:0px !important;
+}
+.price-filter select{
+    width: 150px;
+    height:25px;
+    font-size: 12px;
+    padding:0px !important;
+}
+.btn-customize{
+    font-size: 15px !important;
+    margin:0px auto;
+    background-color: #0d3349 !important;
+    margin-top: 2%;
+}
+.sidebar form{
+    width:100%;
+}
+.table-customize{
+    width:100%;
+}
+.product-edit a{
+    width: 50%;
+    text-align: center;
+}
+#edit-brand-title a{
+    width: 50%;
+    text-align: center;
+}
+.product-remove , .brand-remove{
+    width: 50%;
+    text-align: center;
+}
+.add-brand{
+    display: none;
+}
+#edit-brand{
+    display: none;
+}
+.edit-brand-title{
+    float: right !important;
+}
+.modal-content{
+    height:200px !important;
+}
+.image-thumb img{
+    width:300px;
+    height:287px;
+}
+.custom-pagination{
+    float: left;
+    text-align: right;
+    direction: rtl;
+}
+.users-list{
+    float: left;
+}
+.message-label span label{
+    float: right !important;
+    font-size: 14px !important;
+}
+.message-label span label a{
+    color: #fff;
+}
+.btn-layer{
+    width:180px;
+    float: right;
+}
